@@ -1,12 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Function to fetch advice from the API
   function fetchAdvice() {
-    fetch("https://api.example.com/advice", {
-      mode: "cors",
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-      },
-    })
+    fetch("https://api.adviceslip.com/advice")
       .then((response) => response.json())
       .then((data) => {
         const advice = data.slip;
