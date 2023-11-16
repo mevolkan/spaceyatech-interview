@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="/dist/output.css" rel="stylesheet">
-  <title>Frontend Mentor | Advice generator app</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <title>Frontend Mentor | Advice generator app</title>
+  </head>
 
-</head>
-<body>
-
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <body class="bg-[#202632] w-screen h-screen">
+    <main class="">
+      <!-- Advice ID goes here -->
+      <div
+        id="advice-container"
+        class="bg-[#313a49] rounded-xl w-96 h-80 p-10 absolute inset-0 m-auto text-center"
+      >
+        <div id="advice-id" class="text-[#52feaa] py-2"><p>Advice # <span id="advice-number"></span> </p></div>
+        <div>
+          <p id="advice-content" class="text-[#cee3e8]">
+            <!-- Advice text goes here -->Advice
+          </p>
+          <div>
+            <img src="" alt="" sizes="" srcset="" />
+          </div>
+          <div class="absolute left-0 right-0 -bottom-10">
+            <span class="bg-[#52feaa] rounded-full inline-block p-3 hover:shadow-[#52feaa]">
+              <img id="dice" src="/images/icon-dice.svg" alt="Spinning Dice" class="p-2"/>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="fixed bottom-0 left-0 right-0 p-5 attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Samuel nzaro</a>.
+      </div>
+    </main>
+  </body>
 </html>
