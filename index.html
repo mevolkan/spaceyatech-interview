@@ -22,17 +22,39 @@
         id="advice-container"
         class="bg-[#313a49] rounded-xl w-96 h-80 p-10 absolute inset-0 m-auto text-center"
       >
-        <div id="advice-id" class="text-[#52feaa] py-2"><p>Advice # <span id="advice-number"></span> </p></div>
+        <div id="advice-id" class="text-[#52feaa] py-2">
+          <p>Advice # <span id="advice-number"></span></p>
+        </div>
         <div>
-          <p id="advice-content" class="text-[#cee3e8]">
-            <!-- Advice text goes here -->Advice
+          <p id="advice-content" class="text-[#cee3e8] text-xl font-roboto font-bold">
+            <!-- Advice text goes here -->
           </p>
-          <div>
-            <img src="" alt="" sizes="" srcset="" />
+
+          </div>
+          <div class="absolute left-0 right-0 px-10 bottom-12">
+            <picture>
+              <source
+                media="(min-width:650px)"
+                srcset="/images/pattern-divider-desktop.svg"
+              />
+              <img
+                src="/images/pattern-divider-mobile.svg"
+                alt="Pattern"
+                style="width: auto"
+              />
+            </picture>
           </div>
           <div class="absolute left-0 right-0 -bottom-10">
-            <span id="fetchAdvice" class="bg-[#52feaa] rounded-full inline-block p-3 hover:shadow-[#52feaa]">
-              <img id="dice" src="/images/icon-dice.svg" alt="Spinning Dice" class="p-2"/>
+            <span
+              id="fetchAdvice"
+              class="bg-[#52feaa] rounded-full inline-block p-3 hover:shadow-[#52feaa]"
+            >
+              <img
+                id="dice"
+                src="/images/icon-dice.svg"
+                alt="Spinning Dice"
+                class="p-2"
+              />
             </span>
           </div>
         </div>

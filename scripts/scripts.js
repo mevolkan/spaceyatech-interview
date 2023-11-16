@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((response) => response.json())
       .then((data) => {
         const advice = data.slip;
-        const adviceIdElement = document.getElementById("advice-id");
+        const adviceIdElement = document.getElementById("advice-number");
         const adviceContentElement = document.getElementById("advice-content");
 
         // Assigning advice ID and content to HTML elements
