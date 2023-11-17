@@ -25,11 +25,11 @@
         <div id="advice-id" class="text-[#52feaa] py-2">
           <p>Advice # <span id="advice-number"></span></p>
         </div>
-        <div>
-          <p id="advice-content" class="text-[#cee3e8] text-xl font-roboto font-bold">
+        <div class="py-8">
+          <p  class="text-[#cee3e8] text-xl font-manrope font-bold">
             <!-- Advice text goes here -->
+            " <span id="advice-content"></span> "
           </p>
-
           </div>
           <div class="absolute left-0 right-0 px-10 bottom-12">
             <picture>
@@ -45,9 +45,10 @@
             </picture>
           </div>
           <div class="absolute left-0 right-0 -bottom-10">
-            <span
+            <button
               id="fetchAdvice"
               class="bg-[#52feaa] rounded-full inline-block p-3 hover:shadow-[#52feaa]"
+              onclick=" fetchAdvice()"
             >
               <img
                 id="dice"

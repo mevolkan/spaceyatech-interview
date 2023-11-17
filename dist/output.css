@@ -639,12 +639,21 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .font-roboto {
   font-family: Roboto, sans-serif;
+}
+
+.font-manrope {
+  font-family: Manrope, sans-serif;
 }
 
 .text-xl {
