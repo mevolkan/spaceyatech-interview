@@ -648,10 +648,6 @@ video {
   text-align: center;
 }
 
-.font-roboto {
-  font-family: Roboto, sans-serif;
-}
-
 .font-manrope {
   font-family: Manrope, sans-serif;
 }
@@ -682,6 +678,11 @@ video {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+#fetchAdvice:hover, #fetchAdvice:focus {
+  cursor: pointer;
+  filter: brightness(130%);
 }
 
 .hover\:shadow-\[\#52feaa\]:hover {

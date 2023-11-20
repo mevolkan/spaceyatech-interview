@@ -2,5 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#fetchAdvice:hover, #fetchAdvice:focus {
+    cursor: pointer;
+    filter: brightness(130%);
+  }
